@@ -1,1 +1,12 @@
 
+Objective: To build a machine learning model to predict the apartment price depending on the apartment size, boroughs where the apartments are located, and the latitude and longitude of the boroughs using Python 3.9 and Jupyter Notebook. 
+Key Tasks: 
+1.	Installing and importing required libraries including pandas, numpy, matplotlib,  seaborn, and plotly, sklearn, SimpleImputer, OneHotEncoder, make_pipeline, RidgeRegression.
+2.	Importing dataset into dataframe, dubseting dataframe, removing outliers by trimming.
+3.	Dropping columns that are more than 50% null values, contains low or high cardinality categorical values, constitutes leakage for the target column, creates issues of multicollinearity.
+4.	Initiating OneHotEncoder to encode categorical features in a numeric array, SimpleImputer to fill out the NaN values by mean values, and RidgeRegression as the applicable model.
+5.	Running the above-mentioned objects in a make_pipeline to initiate Ridge model.
+6.	Training and fitting data into the initiated model in order to identify relationships between apartment size, price, latitude, longitude, and borough and make predictions on price.
+7.	Evaluating and communicating the model in a bar chart.
+
+Outcome:  Successfully developed a Ridge Regression model using scikit-learn in Python to address the projects’ objective. The model shows that the apartment price in ‘borough_Tlalpan, longitude, and ‘borough_Iztapalapa’ are the 3 most influential features of the model. 
