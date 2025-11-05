@@ -5,4 +5,4 @@
     - LR tries to be as close as possible to the data points
     - favours a certain data point
     - can not generalise fitting higher no. of features
-    - coeff becomes become unexpectively bigger or smaller
+    - coeff's become unexpectively bigger or smaller
